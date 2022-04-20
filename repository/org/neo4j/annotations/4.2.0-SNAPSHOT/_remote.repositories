@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 17 10:22:58 JST 2020
+annotations-4.2.0-SNAPSHOT-javadoc.jar>=
+annotations-4.2.0-SNAPSHOT.pom>=
+annotations-4.2.0-SNAPSHOT-sources.jar>=
+annotations-4.2.0-SNAPSHOT.jar>=
+annotations-4.2.0-SNAPSHOT-tests.jar>=

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 17 10:22:59 JST 2020
+zstd-proxy-4.2.0-SNAPSHOT.pom>=
+zstd-proxy-4.2.0-SNAPSHOT-tests.jar>=
+zstd-proxy-4.2.0-SNAPSHOT.jar>=
+zstd-proxy-4.2.0-SNAPSHOT-sources.jar>=
+zstd-proxy-4.2.0-SNAPSHOT-javadoc.jar>=

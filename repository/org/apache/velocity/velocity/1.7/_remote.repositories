@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 04 17:13:27 JST 2021
+velocity-1.7-sources.jar>public=
+velocity-1.7.pom>central=
+velocity-1.7.jar>central=

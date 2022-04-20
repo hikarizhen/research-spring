@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 04 17:14:00 JST 2021
+postgresql-42.2.11-sources.jar>public=
+postgresql-42.2.11.pom>public=
+postgresql-42.2.11.jar>public=

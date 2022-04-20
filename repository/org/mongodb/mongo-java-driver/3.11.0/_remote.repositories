@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 04 17:14:02 JST 2021
+mongo-java-driver-3.11.0.jar>public=
+mongo-java-driver-3.11.0-sources.jar>public=
+mongo-java-driver-3.11.0.pom>public=

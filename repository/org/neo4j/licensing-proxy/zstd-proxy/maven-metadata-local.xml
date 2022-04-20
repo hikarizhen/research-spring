@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.neo4j.licensing-proxy</groupId>
+  <artifactId>zstd-proxy</artifactId>
+  <versioning>
+    <versions>
+      <version>4.2.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20201117012259</lastUpdated>
+  </versioning>
+</metadata>

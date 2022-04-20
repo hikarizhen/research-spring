@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 17 10:23:53 JST 2020
+neo4j-lock-4.2.0-SNAPSHOT-tests.jar>=
+neo4j-lock-4.2.0-SNAPSHOT.jar>=
+neo4j-lock-4.2.0-SNAPSHOT.pom>=
+neo4j-lock-4.2.0-SNAPSHOT-sources.jar>=
+neo4j-lock-4.2.0-SNAPSHOT-javadoc.jar>=
