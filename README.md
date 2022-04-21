@@ -23,4 +23,60 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)
 ### Springプロジェクト作成ガイドライン
 https://start.spring.io/
 
+### 作成された圧縮ファイルを解凍
+`unzip demo.zip`
+
+### ビルド
+
+`mvn clean install`
+
+
+### Maven setting.xmlの置き場
+
+```
+$ pwd
+/usr/local/Cellar/maven/3.6.3_1/libexec/conf
+
+$ ls -ltr
+total 32
+-rw-r--r--  1 jinghuizhen  admin   3747 11  7  2019 toolchains.xml
+-rw-r--r--  1 jinghuizhen  admin  10468 11  7  2019 settings.xml
+drwxr-xr-x  3 jinghuizhen  admin     96 11  7  2019 logging
+```
+
+### RUN IT!
+
+`$ mvn spring-boot:run`
+
+BUT! whitpage error has occurred!
+
+# OfficeWebSite Sample
+
+`cd hika/hika-sample/complete`
+
+## compile
+
+`$ mvn clean install`
+
+## run it
+
+`$./mvnw spring-boot:run`
+
+## test
+
+`$ curl http://localhost:8080/greeting`
+
+```
+<!DOCTYPE HTML>
+<html>
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p >Hello, World!</p>
+</body>
+</html>
+```
+
 

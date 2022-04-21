@@ -1,0 +1,89 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] expected START_TAG or END_TAG not TEXT (position: TEXT seen ... artifacts.\r\n   |\r\n   | Default: ${user.home}/.m2/repository\r\n  <l... @52:5)  @ /usr/local/Cellar/maven/3.6.3_1/libexec/conf/settings.xml, line 52, column 5
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< com.hika:demo >----------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/jinghuizhen/git/hika/demo/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/jinghuizhen/git/hika/demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/jinghuizhen/git/hika/demo/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ demo ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.hika.demo.DemoApplicationTests
+15:12:01.953 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:12:01.973 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:12:02.027 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.hika.demo.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:12:02.059 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hika.demo.DemoApplicationTests], using SpringBootContextLoader
+15:12:02.064 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hika.demo.DemoApplicationTests]: class path resource [com/hika/demo/DemoApplicationTests-context.xml] does not exist
+15:12:02.065 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hika.demo.DemoApplicationTests]: class path resource [com/hika/demo/DemoApplicationTestsContext.groovy] does not exist
+15:12:02.065 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.hika.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:12:02.067 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hika.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:12:02.182 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hika.demo.DemoApplicationTests]
+15:12:02.291 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/jinghuizhen/git/hika/demo/target/classes/com/hika/demo/DemoApplication.class]
+15:12:02.301 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hika.demo.DemoApplication for test class com.hika.demo.DemoApplicationTests
+15:12:02.547 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.hika.demo.DemoApplicationTests]: using defaults.
+15:12:02.548 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:12:02.609 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+15:12:02.610 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:12:02.610 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@272113c4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@73e9cf30, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@771a660, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2d52216b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@242b836, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3f6f6701, org.springframework.test.context.event.EventPublishingTestExecutionListener@3527942a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@942a29c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1ed6388a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5a45133e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@534a5a98, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4f80542f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@60bd273d]
+15:12:02.623 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5824a83d testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@537f60bf testClass = DemoApplicationTests, locations = '{}', classes = '{class com.hika.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1c93084c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7ce3cb8e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@703580bf, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5bd03f44, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5c30a9b0, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6aaa5eb0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+2022-04-21 15:12:03.049  INFO 39604 --- [           main] com.hika.demo.DemoApplicationTests       : Starting DemoApplicationTests using Java 1.8.0_202 on jingnoMacBook-ea.local with PID 39604 (started by jinghuizhen in /Users/jinghuizhen/git/hika/demo)
+2022-04-21 15:12:03.051  INFO 39604 --- [           main] com.hika.demo.DemoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2022-04-21 15:12:05.486  INFO 39604 --- [           main] com.hika.demo.DemoApplicationTests       : Started DemoApplicationTests in 2.799 seconds (JVM running for 4.551)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.266 s - in com.hika.demo.DemoApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-war-plugin:3.3.2:war (default-war) @ demo ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [demo] in [/Users/jinghuizhen/git/hika/demo/target/demo-0.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Building war: /Users/jinghuizhen/git/hika/demo/target/demo-0.0.1-SNAPSHOT.war
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.6.6:repackage (repackage) @ demo ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ demo ---
+[INFO] Installing /Users/jinghuizhen/git/hika/demo/target/demo-0.0.1-SNAPSHOT.war to /Users/jinghuizhen/git/hika/repository/com/hika/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.war
+[INFO] Installing /Users/jinghuizhen/git/hika/demo/pom.xml to /Users/jinghuizhen/git/hika/repository/com/hika/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.389 s
+[INFO] Finished at: 2022-04-21T15:12:09+09:00
+[INFO] ------------------------------------------------------------------------
